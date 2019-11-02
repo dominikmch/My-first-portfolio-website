@@ -1,0 +1,297 @@
+body, html {
+    margin:0;
+    padding: 0;
+    border:0;
+    width: 100%;
+    background-size:cover;
+  }
+/* NAVBAR */
+#navbar-style{
+  background-color: rgb(33, 49, 41);
+  box-shadow: 0 0 20px rgb(13, 14, 13) !important;
+}
+#navbar-style h1,
+#navbar-style h4{
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-family: 'Indie Flower', cursive; 
+  margin-bottom: 0 !important;
+}
+.nav-item :hover {font-weight: 900!important;}
+.navbar-brand :hover {font-weight: 900!important;}
+
+/* HOME */
+#home{
+  background: url(pictures/background-skills.jpg);
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid black;
+  box-shadow: 0 0 40px 20px black;
+  position: relative;
+  z-index: 10;
+}
+#me3{
+  height:700px !important;
+}
+#col-home-text
+{
+padding-top: 2rem;
+}
+#home h1{
+ font-family: 'Montserrat', sans-serif;
+ margin-bottom: 50px;
+}
+#home h4{
+  font-family:'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+@media (min-width: 1730px){
+  #home
+  {height: 1100px !important}
+}
+@media (max-width: 1730px){
+  #me3
+  {height: 600px !important}
+  }
+  @media (max-width: 1470px){
+    #me3
+    {height: 500px !important}
+    }
+@media (max-width: 768px){
+  #me3{
+
+    margin-left: 1rem;
+    height: 400px !important;
+  }
+  #col-home-text
+{text-align: left !important;
+padding-top: 2rem;
+padding-right: 1rem;
+color: aliceblue;
+}
+  #home{
+    background-size:cover;
+    padding-top: 5rem;
+  }
+  #home h1{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
+}
+  #home h4{font-size:1.3rem;}
+}
+
+/* ///////////////////////////////////////////////////////////// */
+
+.bg-about-me{  
+background: url(pictures/black-background.jpg);
+background-size:cover;
+}
+
+.Header{
+font-family: 'sandbox_melodramaregular';
+padding-top: 100px;
+margin-bottom: 3rem;
+text-align: center;   
+font-size:5rem; 
+color:whitesmoke;
+}
+
+.title-text-about-me{
+    font-family: 'sandbox_melodramaregular';
+    color:whitesmoke;
+    font-size: 3rem;
+}
+
+.title-text-about-me-future,
+.title-text-about-me-hobby
+{
+  font-family: 'sandbox_melodramaregular';
+  color:whitesmoke;
+  font-size: 3rem;
+  padding-bottom: 20px;
+}
+.title-text-about-me-edu{ 
+  font-family: 'sandbox_melodramaregular';
+  color:whitesmoke;
+  font-size: 3rem;
+  padding-bottom: 20px;}
+
+#about-title{margin-left:20px;
+  }
+
+
+#education-photo{height:4.5em; float: left ; margin-right: 50px; }
+#plans-photo{height:5em; float: left; margin-right: 10px}
+#hobby-photo2{height:5em; float: left; margin-right: 30px; margin-top:8px; margin-left: 10px;}
+
+
+.col-lg-4 p{margin-left:10rem;}
+.col-lg-4 .about-me-description{ 
+padding: 30px;
+margin-top: 0px !important; 
+font-family: 'Indie Flower', cursive; 
+color:whitesmoke;
+font-size: 2rem;}
+
+.container-about-plans{
+align-content: center;
+margin-bottom: 10rem;
+margin-top: 4rem;}
+.container-about-hobby{
+
+  align-content: center;
+  margin-bottom: 10rem;
+  margin-top: 4rem;}
+.container-about-edu{
+  align-content: center;
+  margin-bottom: 12rem;
+  margin-top: 4rem;}
+
+  
+@media (max-width: 992px){
+  .container-about-plans{
+  margin-top:0px !important;
+  border-left:0px solid black !important;
+  border-bottom: 2px solid black;
+  margin-bottom:0;
+}
+.container-about-edu{
+  margin-top:0px !important;
+  border-left:0px solid black !important;
+  border-bottom: 2px solid black;
+  margin-bottom:0;}
+  .container-about-hobby{
+    margin-top:0px !important;
+    border-bottom: 0px solid black;
+    margin-bottom:0;
+  }
+.col-lg-4 .about-me-description{
+  font-size:1.5rem;
+  margin-top:0px;
+ }
+ .col-lg-4 p{margin-left:0rem;}
+ .Header{padding-top: 10px !important;
+margin-bottom: 10px;}
+.bg-about-me{background-size: 1400px 2385px !important;}
+
+}
+
+/* ---------------------------------------------------------------- */
+.bg-skills{
+  
+  border-top: 2px solid black;
+  background: url(pictures/background-skills.jpg);
+  text-align: center;
+  box-shadow: 0 0 30px 10px black;
+  background-size: cover;
+}
+.bg-skills  h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6rem;
+  padding-top: 6rem ;
+  padding-bottom: 4rem;
+ 
+
+}
+.progress-container{width:75%}
+
+.progress{
+  background: transparent !important;
+  margin-bottom:10px; 
+  border: 1px solid black;
+  box-shadow: 0 0 5px black;
+}
+
+
+
+.bootstrap{background-color:rgb(131, 54, 96) !important; }
+.mysql{background-color:#d65308 !important;}
+
+.skillname {
+  font-size: 2rem;
+}
+.progress
+  {
+    height:2.5rem !important; 
+  }
+
+/* ///////////////////////////////////////////// */
+  .university{
+    padding-top:8rem;
+    width: 90% !important;
+    padding-bottom: 4rem;
+  }
+  hr {color: grey !important;}
+  .uni{
+   margin: 50px;
+    padding: 1rem 1rem !important;
+    text-align: left;
+    background:none !important;
+    box-shadow: 0 0 10px grey;}
+
+  
+    .uni h1 {
+margin-bottom: 0px !important;
+padding-bottom:15px;
+      padding-top:10px !important;
+      color: honeydew;
+    font-size:3rem !important;
+    font-family: 'Roboto Mono', monospace; }
+
+  #grades {color: honeydew;
+  font-size: 1.5rem;
+  font-family: 'Roboto Mono', monospace;}
+
+  #modules {color: honeydew;
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono', monospace;}
+
+  #grade-list, #module-list{
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 576px){.uni {margin: 0;}
+.uni .grades-title {font-size: 1.7rem !important;
+color: black}
+.uni .modules-title {font-size: 1.7rem !important; }
+.uni #grades {font-size: 1rem; color: black}
+.uni #modules {
+  font-size: 1rem;
+
+}
+h6 {font-size:0.8rem !important}
+}
+/* Footer */
+.page-footer{
+  background-color: rgb(33, 49, 41) ;
+  padding-top:10px;
+  box-shadow: 0 0 15px  rgb(24, 73, 35);
+}
+#icon {height:40px;}
+/*----------------------------- */
+#SourceCode{
+  color: black;
+}
+.page-footer{padding-bottom: 15px;}
+
+
+/* animation for progress bars */
+@keyframes bars-animation {
+0%{
+  width:0;
+}
+}
+/* ------------------------------------ */
+
+
+@font-face {
+    font-family: 'sandbox_melodramaregular';
+    src: url(fonts/sandbox_melodrama-webfont.woff) format('woff2'),
+         url(fonts/sandbox_melodrama-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
